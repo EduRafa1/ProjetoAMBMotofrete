@@ -1,0 +1,440 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+
+}
+body{
+	background-color: #e6e6e6;
+}
+/* CLass Painel Alert*/
+.box-alert{
+    max-width: 400px;
+    width: 100%;
+    padding: 10px 0; 
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+
+}
+.center{
+	text-align: center;
+}
+.sucesso{
+    background-color: #53996b;
+}
+.erro{
+    background-color: #ff808c;
+}
+/*BOoot CSS*/
+.container{
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+.w50{
+	width: 49%;
+}
+.w100{
+	width: 100%
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+/**/
+
+.login{
+	width: 100%;
+	height:100%;
+	background-color: #969696;
+	position: relative;
+}
+.login .box-login{
+	max-width: 600px;
+	width: 100%;
+	max-height:320px;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
+}
+.box-login h1{
+	text-transform: uppercase;
+	font-size: 23px;
+	color: #444;
+	margin-top: 50px;
+	font-weight: normal;
+	text-align:center;
+
+}
+.box-login form{
+	padding: 0 60px;
+
+}
+.box-login form input[type=text], .box-login form input[type=password]{
+	height: 40px;
+	padding-left: 8px;
+	border: 1px solid #ccc;
+	margin: 10px 0;
+}
+.box-login input[type=submit]{
+	padding: 10px 30px;
+	border: 0;
+	background-color: #00BFA5;
+	text-align: left;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+}
+.box-login input[type=submit]:hover{
+	background-color: #00ad96;
+
+}
+.box-login input[type=text]:focus,.box-login input[type=password]:focus{
+	outline: 0;
+
+}
+/* Painel De Controle*/
+div.menu{
+	width: 250px;
+	height: 100%;
+	background-color: #455A64;
+	float: left;
+	position: fixed;
+	overflow-y: auto;
+	z-index: 30;
+
+}
+
+.menu .session-menu{
+	width: 170px;
+	height: 170px;
+	border: 3px solid #2F3D42;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top: 10px;
+} 
+.menu .session-menu .imagem-perfil-padrao{
+	text-align: center
+	width: 100px;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	position: relative;
+}
+.imagem-perfil-padrao i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 80px;
+	color: #2F3D42;
+}
+
+
+header{
+	width: calc(100% - 250px);
+	left: 250px;
+	float: right;
+	padding: 10px 0;
+	background-color: #78909C;
+	position: fixed;
+	z-index: 30;
+}
+header i.bars{
+	color: white;
+	cursor: pointer;
+	width: 10%;
+}
+.menu-header{
+	width: 90%;
+	text-align: right;
+}
+.container-menu{
+	width: 100%;
+	border-bottom:  1px solid #2F3D42;
+	padding-bottom: 5px;
+}
+
+.menu-header li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: right;
+	margin: 0 10px;
+}
+.menu-header button{
+	text-align: right;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	border: 0;
+	background-color: #78909C;
+	cursor: pointer
+}
+div.menu .info-basicas{
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+}
+.info-basicas h4{
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.info-basicas p{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+div.menu .form-menu{
+	width: 100%;
+}
+.form-menu .form-menu-single{
+	border-top:  1px solid black;
+	padding: 15px 10px;
+	width: 100%;
+	color: white;
+
+}
+.form-menu .form-menu-single:nth-child(1){
+	border: 0;
+	margin-top: 30px;
+}
+.form-menu .title{
+	background-color: #2F3D42;
+}
+.form-menu-single h3{
+	width: 100%
+	font-weight: normal;
+	font-size: 18px;
+}
+.form-menu span{
+
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	cursor: pointer;
+	padding-left: 10px;
+}
+.form-menu button{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0,0,0,0);
+	border: 0;
+}
+.form-menu-single:hover{
+	background-color: #3f535c;
+}
+main{
+	width: calc(100% - 250px);
+	padding: 30px;
+	float: right;
+	height: 100%;
+	margin-top: 40px;
+}
+/*HOme*/
+section.home{
+	width: 100%;
+	
+}
+section.home h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #444;
+	margin-bottom:  30px;
+}
+section.home .container-home{
+	background-color: white;
+	min-height: 30px;
+	height: auto;
+	padding: 30px ;
+	margin-bottom: 30px;
+
+}
+.pag-h{
+	padding: 0 20px;
+}
+.pag-home h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	
+}
+.home-single{
+	height: 200px;
+	margin-bottom: 20px;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	border: 1px solid black;
+}
+.home-single span{
+	color: white;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.home-single p{
+	color: white;
+	font-size: 22px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+/*Vizualizar motoboys*/
+
+div.motoboy{
+	width: 100%;
+	padding: 0 40px;
+}
+div.motoboy .img-motoboy{
+	width: 240px;
+	float: left;
+}
+
+.img-motoboy img{
+	max-width: 240px;
+	width: 100%;
+	border: 3px solid black;
+}
+div.motoboy .info-motoboy{
+	width: 60%;
+	float: left;
+	padding:  4px 20px;
+	
+}
+.info-motoboy .info-single{
+	padding: 4px 0;
+	border-bottom: 1px solid #ccc
+
+}
+.info-single span{
+	padding-left: 10px;
+}
+
+/*Cadastrar Motoboy*/
+.cadastrar-motoboy form{
+	width: 100%;
+	text-align:center;
+}
+.cadastrar-motoboy form label{
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.cadastrar-motoboy input[type=text]{
+	width: 100%;
+	padding: 10px 0;
+	border: 2px solid #ccc;
+	text-align: center;
+	margin: 15px 0;
+}
+.cadastrar-motoboy input[type=submit]{
+	padding: 10px 50px;
+	border: 0;
+	text-align: center;
+	background-color: #00BFA5;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.excluir-motoboy{
+	text-align: center;
+	margin-top: 30px;
+}
+.excluir-motoboy input[type=submit]{
+	padding: 10px 40px;
+	border: 0;
+	background-color: #00bfa5;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer
+}
+/*Editar senha*/
+
+.editar-senha{
+	text-align: center;
+}
+.editar-senha label{
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.editar-senha input[type=text]{
+	width: 100%;
+	padding: 10px 0;
+	border: 2px solid #ccc;
+	text-align: center;
+	margin: 15px 0;
+}
+.editar-senha input[type=submit]{
+	padding: 10px 40px;
+	border: 0;
+	background-color: #00bfa5;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer
+}
+
+
+
+@media screen and (max-width: 1080px){
+	div.motoboy .img-motoboy{
+		width: 100% !important;
+		text-align: center;
+
+	}
+	div.motoboy .info-motoboy{
+		width: 100% !important;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 768px){
+	header{
+		width: 100%;
+		left: 0;
+	}
+	.home-single{
+		width: 100% !important;
+	}
+	div.menu{
+		width: 0;
+		padding: 0;
+	}
+	main{
+		width: 100%;
+	}
+	section.home .container-home{
+		padding: 0;
+		padding-top: 30px;
+	}
+	div.motoboy{
+		padding: 0 2%;
+	}
+}
+@media screen and (max-width: 420px){
+	.info-single span{
+		font-size: 13px;
+
+	}
+}

@@ -1,0 +1,730 @@
+<!DOCTYPE php>
+<php lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <title>AMB</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img id="LOGO" src="images/amblogo-removebg-preview.png"></img>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#ambnoministerio">AMB No Ministério</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#apoiadores">Apoiadores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#consultores">Consultores</a>
+          </li>
+          <li class="nav-item">
+            <a id="contrate" class="nav-link" href="pages/afiliaçao.php"><b>Contrate</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/associar.php">Associe-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/acordo.php">Estrutura</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <b> CNPJ: 08.674.622/0001-07 <br>
+            R. Estado de Israel, 713 | CEP: 04022-022 | Vila Clementino - SP </b>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  
+<!--linha1-->
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="beneficios">
+        <h1>Benefícios Automáticos</h1>
+    <div class="all-cards">
+      <div class="card" style="width: 18rem;">
+        <img class="img"
+          src="https://parceirolegal.fcmlaw.com.br/wp-content/uploads/sites/2/2016/05/Depositphotos_9017825_original.png"
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Homologação de Acordos</h5>
+          <a id="more" href="pages/acordo.php#homologacao"><button class="btn btn-primary1">Ver Mais</button></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFDxbFZENxnQXMmqk-DfKSk1y595AC7pNW5g&usqp=CAU"
+          class="card-img-top" alt="CLUBE DE FERIAS">
+        <div class="card-body">
+          <h5 class="card-title">Clube de Ferias</h5>
+          <a id="more" href="pages/acordo.php#clubeferias"><button class="btn btn-primary1">Ver Mais</button></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="img"
+          src="https://www.economus.com.br/wp-content/uploads/2020/04/banner_telemedicina.png"
+          class="card-img-top" alt="TELEMEDICINA">
+        <div class="card-body">
+          <h5 class="card-title">Telemedicina</h5>
+          <a id="more" href="#"><button class="btn btn-primary1 disabled">Indisponível</button></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="img" src="images/appmt.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">APP MOTOFRETE</h5>
+          <a id="more" href="https://play.google.com/store/apps/details?id=com.levtraz.motorista"><button class="btn btn-primary1">Ver Mais</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+    <div class="beneficios">
+      <h1>Benefícios Opcionais</h1>
+    <div class="all-cards">
+      <div class="card" style="width: 18rem;">
+        <img class="img"
+          src="https://folhago.com.br/wp-content/uploads/2020/11/como-limpar-meu-nome-no-spc-e-serasa.jpg"
+          class="card-img-top" alt="LimpaNome">
+        <div class="card-body">
+          <h5 class="card-title">Limpeza de nome</h5> <br>
+          <a id="more" href="#"><button class="btn btn-primary1 disabled">Indisponível</button></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="img"
+          src="https://i2.wp.com/domadoresdecilindradas.com/wp-content/uploads/2020/03/abastecendo-moto.jpg?fit=940%2C541&ssl=1"
+          class="card-img-top" alt="desconto-combustivel">
+        <div class="card-body">
+          <h5 class="card-title">Desconto em combustivel e troca de óleo</h5>
+          <a id="more" href="#"><button class="btn btn-primary1 disabled">Indisponível</button></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="img"
+          src="https://cdn.secad.com.br/wp-content/uploads/2019/11/avaliacao-psicologica-cirurgias.jpg"
+          class="card-img-top" alt="fisioepisicologia">
+        <div class="card-body">
+          <h5 class="card-title">Fisioterapia e apoio psicológico</h5>
+          <a id="more" href="#"><button class="btn btn-primary1 disabled">Indisponível</button></a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="img" src="https://www.webmotors.com.br/wp-content/uploads/2019/09/03121743/honda_strip_503192_0_full.jpg" class="card-img-top" alt="financiamento">
+        <div class="card-body">
+          <h5 class="card-title">Crédito para financiamento de motos e peças</h5>
+          <a id="more" href="#"><button class="btn btn-primary1 disabled">Indisponível</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  
+
+  <!--linha2-->
+  
+
+  <div class="ambnoministerio">
+    <h1 id="ambnoministerio">AMB No Ministério do Trabalho</h1>
+    <p>O associativismo é uma iniciativa formal ou informal que consiste na constituição de grupos de pessoas ou de
+      organizações que se reúnem com o objetivo de gerar soluções, bem como superar desafios e dificuldades nos mais
+      variados âmbitos — sociais, culturais, políticos, econômicos, científicos, entre outros.</p>
+
+    <p>Conforme apresentado acima, há 14 anos, escolhemos a formalidade.</p>
+
+    <p>O associativismo envolve participação, solidariedade, união e cooperação por objetivos comuns. É uma maneira de
+      mobilizar indivíduos e acreditar que juntos é possível criar propósitos e caminhos para os conflitos e problemas
+      enfrentados pela sociedade.</p>
+
+    <p>Em um contexto mais amplo, o associativismo é então a livre organização de pessoas que buscam sanar necessidades
+      coletivas ou mesmo realizar objetivos e alcançar metas comuns a todos. E de forma mais específica, o
+      associativismo diz respeito a uma prática social de organizar associações, que reúnem pessoas físicas ou
+      jurídicas, que se representam mutuamente, diante dos interesses de todos os envolvidos</p>
+  </div>
+
+  <div class="Apoiadores">
+    <h2 id="apoiadores">Apoiadores</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_fenamoto-removebg-preview.png" class="card-img-top" alt="FENAMOTO">
+          <div class="card-body">
+            <h5 class="card-title">FENAMOTO</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_sindimotoca-removebg-preview.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SINDIMOTOCA SP</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_sindimotovale-removebg-preview.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SINDMOTOVALE</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <h2>Empresas amiga do entregador</h2>
+
+  
+      <div class="Parceiros">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_gogar-removebg-preview.png" class="card-img-top" alt="GOGAR">
+          <div class="card-body">
+            <h5 class="card-title">GOGAR</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_go6.png" class="card-img-top" alt="GOGAR">
+          <div class="card-body">
+            <h5 class="card-title">GO6</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_levtraz-removebg-preview.png" class="card-img-top" alt="LEVTRAZ">
+          <div class="card-body">
+            <h5 class="card-title">LEVTRAZ</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+
+      <div class="Parceiros">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_pagseguro.png" class="card-img-top" alt="PAGSEGURO">
+          <div class="card-body">
+            <h5 class="card-title">PAGSEGURO</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_portoseguro-removebg-preview.png" class="card-img-top" alt="PORTO SEGURO">
+          <div class="card-body">
+            <h5 class="card-title">PORTO SEGURO</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_saurus-removebg-preview.png" class="card-img-top" alt="SAURUS">
+          <div class="card-body">
+            <h5 class="card-title">SAURUS</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+  <div class="container1">
+    <div class="colaboradores">
+      
+        <h2 id="consultores">Consultores</h2>
+
+        <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+          <h2 id="Name">Eiremar Toledo</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+            <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+            <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+            <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i> <br> 
+            
+          
+           
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Operadores logísticos
+</button>
+</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Operadores logísticos - EIREMAR</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+            
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  
+                  <div class="modal-body">
+                    <div class="consultores">
+                    <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+                    <h2 id="Name">Eiremar Toledo</h2>
+                    <div id="dadosConsultores">
+                      <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+                      <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+                      <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+                      <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+                      <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+                <div class="carousel-item">
+                  
+                  <div class="modal-body">
+                    <div class="consultores">
+                    <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+                    <h2 id="Name">Diego</h2>
+                    <div id="dadosConsultores">
+                      <i class="fas fa-suitcase"> Serviço: Operador Logistico</i> <br>
+                      <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+                      <i class="fas fa-at"> Email: diego@gogar.com.br</i> <br>
+                      <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+                      <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+              
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+<div class="consultores">
+  <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+  <h2 id="Name">Laís</h2>
+  <div id="dadosConsultores">
+    <i class="fas fa-suitcase"> Serviço: Consultora</i> <br>
+    <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+    <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+    <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+    <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i> <br> 
+  
+   
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Operadores logísticos
+</button>
+</div>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">Operadores logísticos - LAIS</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <div class="modal-body">
+            <div class="consultores">
+            <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+            <h2 id="Name">Eiremar ...</h2>
+            <div id="dadosConsultores">
+              <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+              <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+              <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+              <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+              <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="carousel-item">
+          
+          <div class="modal-body">
+            <div class="consultores">
+            <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+            <h2 id="Name">Diego</h2>
+            <div id="dadosConsultores">
+              <i class="fas fa-suitcase"> Serviço: Operador Logistico</i> <br>
+              <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+              <i class="fas fa-at"> Email: diego@gogar.com.br</i> <br>
+              <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+              <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+
+
+
+
+
+<!--
+        <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/lais1.jpg" alt="Laís">
+          <h2 id="Name">Laís Ramires</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultora</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+            <i class="fas fa-at"> Email: lais.ramires@gogar.com.br</i> <br>
+            <i class="fab fa-whatsapp-square"> (12) 98293-6180</i> <br>
+            <i class="fas fa-info"> Descrição: Gestora comercial e consultora de acordos autônomos.</i> <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Operadores logísticos
+</button>
+
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Agentes - Eiremar Toledo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+  <div class="container-fluid">
+    <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+          <h2 id="Name">Eiremar Toledo</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+            <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+            <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+            <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i>
+</div>
+</div>
+    </div>
+    <div class="carousel-item">
+    <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/ivan.jpg" alt="Ivan">
+          <h2 id="Name">Ivan Vasconcelos</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São Paulo - SP</i> <br>
+            <i class="fas fa-at"> Email: ivascon.iv@gmail.com</i> <br>
+            <i class="fab fa-whatsapp-square"> Whatsapp: (11) 99222-8156</i> <br>
+            <i class="fas fa-info"> Descrição: Gerente de contas | Gerente de Relacionamento de contas</i>
+          </div>
+        </div>
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" id="voltar" aria-hidden="true"><</span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" id="próximo" aria-hidden="true">></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <hr>
+          </div>
+        </div>
+         
+
+        <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/ivan.jpg" alt="Ivan">
+          <h2 id="Name">Ivan Vasconcelos</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São Paulo - SP</i> <br>
+            <i class="fas fa-at"> Email: ivan@ambmotofrete.com.br</i> <br>
+            <i class="fab fa-whatsapp-square"> Whatsapp: (11) 99222-8156</i> <br>
+            <i class="fas fa-info"> Descrição: Gerente de contas | Gerente de Relacionamento de contas</i> <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Operadores logísticos
+</button>
+
+Modal 
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Agentes - Eiremar Toledo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+  <div class="container-fluid">
+    <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+          <h2 id="Name">Eiremar Toledo</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+            <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+            <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+            <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i>
+</div>
+</div>
+    </div>
+    <div class="carousel-item">
+    <div class="consultores">
+          <img id="Consultores" src="./fotos_consultores/ivan.jpg" alt="Ivan">
+          <h2 id="Name">Ivan Vasconcelos</h2>
+          <div id="dadosConsultores">
+            <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+            <i class="fas fa-map-marker-alt"> Localização: São Paulo - SP</i> <br>
+            <i class="fas fa-at"> Email: ivascon.iv@gmail.com</i> <br>
+            <i class="fab fa-whatsapp-square"> Whatsapp: (11) 99222-8156</i> <br>
+            <i class="fas fa-info"> Descrição: Gerente de contas | Gerente de Relacionamento de contas</i> 
+          
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" id="voltar" aria-hidden="true"><</span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" id="próximo" aria-hidden="true">></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+    <div class="row">
+      
+    </div>
+  </div>
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <hr>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        </div>
+</div>
+    </div>
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-item active">
+            <div class="Parceiros">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card-ap">
+                <img src="images/logo_gogar-removebg-preview.png" class="card-img-top" alt="GOGAR">
+                <div class="card-body">
+                  <h5 class="card-title">GOGAR</h5>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col">
+            <div class="card-ap">
+              <img src="images/logo_go6.png" class="card-img-top" alt="GOGAR">
+              <div class="card-body">
+                <h5 class="card-title">GO6</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col">
+            <div class="card-ap">
+              <img src="images/logo_levtraz-removebg-preview.png" class="card-img-top" alt="LEVTRAZ">
+              <div class="card-body">
+                <h5 class="card-title">LEVTRAZ</h5>
+              </div>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="col">
+        <div class="card-ap">
+          <img src="images/logo_pagseguro.png" class="card-img-top" alt="PAGSEGURO">
+          <div class="card-body">
+            <h5 class="card-title">PAGSEGURO</h5>
+          </div>
+        </div>
+      </div>
+        
+        </div>
+        <div class="carousel-item">
+          <div class="col">
+            <div class="card-ap">
+              <img src="images/logo_portoseguro-removebg-preview.png" class="card-img-top" alt="PORTO SEGURO">
+              <div class="card-body">
+                <h5 class="card-title">PORTO SEGURO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="col">
+            <div class="card-ap">
+              <img src="images/logo_saurus-removebg-preview.png" class="card-img-top" alt="SAURUS">
+              <div class="card-body">
+                <h5 class="card-title">SAURUS</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>-->
+    
+    
+
+</div>
+
+  <footer class="rodape"><b>
+      © Corpyright 2021 | Todos os direitos reservados
+    </b></footer>
+
+  <script src="bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+  
+
+
+</body>
+
+</php>

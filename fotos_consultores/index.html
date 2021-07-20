@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="/bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  HOMEM
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                    <li><a class="dropdown-item" href="#">Tênis</a></li>
+                    <li><a class="dropdown-item" href="#">Bonés</a></li>
+                  </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MULHER
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                    <li><a class="dropdown-item" href="#">Vestidos</a></li>
+                    <li><a class="dropdown-item" href="#">Calças e Shortz</a></li>
+                  </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      CRIANÇAS
+                    </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">2 a 5 Anos</a></li>
+                  <li><a class="dropdown-item" href="#">6 a 9 Anos</a></li>
+                  <li><a class="dropdown-item" href="#">10 a 13 anos</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="banner1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="banner2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Voltar</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+        </button>
+      </div>
+
+
+      <div class="tenis">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/04def60a-2662-46b8-a6e7-af46da533550/wildhorse-7-womens-trail-running-shoe-Nrmvwh.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tenis 1</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/2861ed0a-d705-4aeb-840d-cc1d7dfafbda/air-force-1-shadow-womens-shoe-kTgn9J.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tenis 2</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/ea94757e-b3e6-4449-8fcd-1ae429814319/air-vapormax-evo-mens-shoe-pHzpBh.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tenis 3</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <button type="button" class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.0/w_402,c_limit/f0ab450c-fc92-4b87-ab51-7aac3bce33fc/air-zoom-pegasus-38-womens-running-shoe-2bvJvW.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tenis 4</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container1">
+    <div class="colaboradores">
+      <div><h2 id="h2consultores">
+Consultores
+      </h2></div>
+
+      <div class="consultores">
+        <img id="Consultores" src="./fotos_consultores/eire.jpg" alt="Eiremar">
+        <h2 id="Name">Eiremar Toledo</h2>
+          <div id="dadosConsultores">
+        <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+        <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+        <i class="fas fa-at"> Email: eire@gogar.com.br</i> <br>
+        <i class="fab fa-whatsapp-square"> Whatsapp: (11) 96832-8080</i> <br>
+        <i class="fas fa-info"> Descrição: Especialista em gestão e leis trabalhistas</i> <hr>
+      </div>
+      </div>
+
+      <div class="consultores">
+        <img id="Consultores" src="./fotos_consultores/lais1.jpg" alt="Laís">
+        <h2 id="Name">Laís Ramires</h2>
+          <div id="dadosConsultores">
+        <i class="fas fa-suitcase"> Serviço: Consultora</i> <br>
+        <i class="fas fa-map-marker-alt"> Localização: São José dos Campos - SP</i> <br>
+        <i class="fas fa-at"> Email: lais.ramires@gogar.com.br</i> <br>
+        <i class="fab fa-whatsapp-square"> (12) 98293-6180</i> <br>
+        <i class="fas fa-info"> Descrição: Gestora comercial e consultora de acordos autônomos.</i> <hr>
+      </div> 
+      </div>
+
+      <div class="consultores">
+        <img id="Consultores" src="./fotos_consultores/ivan.jpg" alt="Ivan">
+        <h2 id="Name">Ivan Vasconcelos</h2>
+          <div id="dadosConsultores">
+        <i class="fas fa-suitcase"> Serviço: Consultor</i> <br>
+        <i class="fas fa-map-marker-alt"> Localização: São Paulo - SP</i> <br>
+        <i class="fas fa-at"> Email: ivascon.iv@gmail.com</i> <br>
+        <i class="fab fa-whatsapp-square"> Whatsapp: (11) 99222-8156</i> <br>
+        <i class="fas fa-info"> Descrição: Gerente de contas | Gerente de Relacionamento de contas</i> 
+      </div>
+    </div>
+      </div>
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/bootstrap-5.0.1-dist/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-image: url('https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.png');
+}
+
+#LOGO {
+    height: 100px;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    
+    
+    a {
+        color: black;
+        border-bottom: solid 2px #f8f9fa;
+    }
+    
+    li {
+        color: black;
+        font-size: 17px;
+    }
+    
+    h2 {
+    padding-top: 20px;
+    color: black;
+    }
+    
+    h3 {
+        color: rgb(124, 124, 124);
+        font-size: 20px;
+    }
+    
+
+    .navbar-nav {
+        gap: 20px;
+    }
+    
+    a:hover {
+        border-bottom: solid 2px rgb(62, 146, 255);
+        background-color: rgba(80, 156, 255, 0.568) ;
+        border-radius: 10px;
+    }
+
+    .infraestrutura {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .perfilassociado {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .tecnologiaaplicada {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .funcionamentoservico {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .leicomented {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px; 
+    }
+
+    .relacaojuridica {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+    }
+    .navbar-text {
+        padding-top: .5rem;
+        font-size: 13px;
+        padding-bottom: .5rem;
+    }
+
+    .col {
+        border: solid 1px black;
+        padding: 5px;
+    }
+
+    .modelofaturamento {
+        background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+.capacitaçao {
+    background-color: whitesmoke;
+        margin: 20px;
+        padding: 20px;
+}
+
+#lista {
+    list-style: decimal;
+}
+
+#lista2 {
+    list-style-type: square ;
+}
+
+#lista3 {
+    list-style-type: square ;
+}
+
+
+
+
+    @media screen and (max-width: 576px) {
+        .col {
+            font-size: 11px;
+        }
+    }
